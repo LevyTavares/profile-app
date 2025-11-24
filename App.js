@@ -19,8 +19,8 @@ export default function App() {
 }
 
 // Espaço reservado para estilos globais se necessário futuramente
-// const styles = StyleSheet.create({
-//   container: {
-//     // TODO: estilos globais
-//   },
-// });
+const styles = StyleSheet.create({
+   container: {
+    
+   },
+});
