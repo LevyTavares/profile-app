@@ -170,7 +170,7 @@ Este projeto foi desenvolvido para fins educacionais.
 **Guilherme Lopes**
 
 - GitHub: [@LevyTavares](https://github.com/LevyTavares)
-- GitHub: [@guithunder] (https://github.com/guithunder)
+- GitHub: [@guithunder](https://github.com/guithunder)
 
 ## 🎮 Sobre Hollow Knight
 
