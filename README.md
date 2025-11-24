@@ -164,11 +164,12 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 Este projeto foi desenvolvido para fins educacionais.
 
-## 👤 Autor
+## 👤 Autores
 
 **Levy Tavares**
 
 - GitHub: [@LevyTavares](https://github.com/LevyTavares)
+- GitHub: [@guithunder] (https://github.com/guithunder)
 
 ## 🎮 Sobre Hollow Knight
 
