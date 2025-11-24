@@ -155,13 +155,13 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   hornetButton: {
-    backgroundColor: "#c4394f",
+    backgroundColor: "#ffffffff",
     padding: 15,
     borderRadius: 8,
     alignItems: "center",
     marginBottom: 30,
     borderWidth: 2,
-    borderColor: "#ff6b7a",
+    borderColor: "#c0aeb0ff",
   },
   hornetButtonText: {
     color: "#fff",
