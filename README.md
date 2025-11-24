@@ -167,6 +167,7 @@ Este projeto foi desenvolvido para fins educacionais.
 ## 👤 Autores
 
 **Levy Tavares**
+**Guilherme Lopes**
 
 - GitHub: [@LevyTavares](https://github.com/LevyTavares)
 - GitHub: [@guithunder] (https://github.com/guithunder)
