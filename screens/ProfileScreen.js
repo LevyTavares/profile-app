@@ -80,12 +80,11 @@ export default function ProfileScreen({ navigation }) {
         <Text style={styles.editButtonText}>Editar Perfil</Text>
       </TouchableOpacity>
       {/* Botão que ao clicar mostra uma mensagem da Hornet */}
-      <TouchableOpacity style={styles.hornetButton}>
-        <Button
-          title="SHAW"
-          onPress={() => alert("Guaraná - Hornet")}
-          style={styles.hornetButtonText}
-        />
+      <TouchableOpacity
+        style={styles.hornetButton}
+        onPress={() => alert("Guaraná - Hornet")}
+      >
+        <Text style={styles.hornetButtonText}>SHAW</Text>
       </TouchableOpacity>
     </ScrollView>
   );
@@ -164,7 +163,7 @@ const styles = StyleSheet.create({
     borderColor: "#c0aeb0ff",
   },
   hornetButtonText: {
-    color: "#fff",
+    color: "#c4394f",
     fontSize: 16,
     fontWeight: "bold",
     textAlign: "center",
