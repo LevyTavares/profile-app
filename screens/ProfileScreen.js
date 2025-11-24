@@ -4,6 +4,8 @@ import {
   Text,
   StyleSheet,
   ScrollView,
+  Image,
+  Button,
   TouchableOpacity,
 } from "react-native";
 
@@ -28,6 +30,7 @@ export default function ProfileScreen({ navigation }) {
     <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.name}>{profileData.name}</Text>
+        <Image source={require("../assets/hornet.png")} style={styles.image} />
         <Text style={styles.title}>{profileData.title}</Text>
       </View>
 
@@ -76,6 +79,14 @@ export default function ProfileScreen({ navigation }) {
       >
         <Text style={styles.editButtonText}>Editar Perfil</Text>
       </TouchableOpacity>
+      {/* Botão que ao clicar mostra uma mensagem da Hornet */}
+      <TouchableOpacity style={styles.hornetButton}>
+        <Button
+          title="SHAW"
+          onPress={() => alert("Guaraná - Hornet")}
+          style={styles.hornetButtonText}
+        />
+      </TouchableOpacity>
     </ScrollView>
   );
 }
@@ -98,6 +109,12 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#c4394f",
     marginBottom: 5,
+  },
+  image: {
+    width: 150,
+    height: 150,
+    marginBottom: 10,
+    borderRadius: 75,
   },
   title: {
     fontSize: 18,
@@ -136,5 +153,21 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     fontWeight: "bold",
+  },
+  hornetButton: {
+    backgroundColor: "#c4394f",
+    padding: 15,
+    borderRadius: 8,
+    alignItems: "center",
+    marginBottom: 30,
+    borderWidth: 2,
+    borderColor: "#ff6b7a",
+  },
+  hornetButtonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+    textAlign: "center",
+    width: "100%",
   },
 });
